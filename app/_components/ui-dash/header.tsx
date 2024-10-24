@@ -18,7 +18,7 @@ import {
   SheetClose,
   SheetTrigger,
   SheetTitle,
-} from "@/components/ui/sheet";
+} from "@/app/_components/ui/sheet";
 
 import clsx from "clsx";
 
@@ -27,7 +27,7 @@ const Header = () => {
 
     console.log(pathname.slice(1))
   return (
-    <header className="p-4 flex justify-between items-center">
+    <header className="p-4 flex justify-between items-center bg-white">
       <h2 className="font-medium tracking-tight text-2xl">{pathname.slice(1).charAt(0).toUpperCase() + pathname.slice(2)}</h2>
 
       <Sheet>
