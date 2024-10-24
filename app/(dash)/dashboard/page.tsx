@@ -1,5 +1,4 @@
-import AddAssignmentCard from "@/app/_components/ui-dash/cards/add-assignment";
-import CalendarCard from "@/app/_components/ui-dash/cards/calendarcard";
+
 
 export default function DashboardPage() {
   return (
